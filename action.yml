@@ -12,4 +12,4 @@ outputs:
     description: "Version of package"
 runs:
   using: 'node20'
-  main: 'lib/main.js'
+  main: 'lib/index.js'
