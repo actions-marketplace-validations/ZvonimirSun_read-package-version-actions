@@ -1,5 +1,8 @@
-name: 'Read package.json version'
+name: 'Read version in package.json'
 description: 'Output version numbers with package.json'
+branding:
+  icon: package
+  color: 'blue'
 inputs:
   path:
     description: 'Path of package.json'
@@ -8,5 +11,5 @@ outputs:
   version:
     description: "Version of package"
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'lib/main.js'
